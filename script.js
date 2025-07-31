@@ -1,5 +1,15 @@
 const tweetContainer = document.getElementById("tweet-container");
 
+
+// BLUE BORDER WITH THICKNES 2 IN SEARCH 
+const searchDiv = document.getElementById("searchDiv");
+
+searchDiv.addEventListener("click", () => {
+  searchDiv.classList.toggle("border-2");
+  searchDiv.classList.toggle("border-twitterBlue");
+});
+
+
 async function loadFakeTweets() {
   try {
     const response = await fetch("https://randomuser.me/api/?results=10");

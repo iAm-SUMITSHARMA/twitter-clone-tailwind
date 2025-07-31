@@ -19,12 +19,12 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-[#E7E9EA]">
     <!-- PRIMARY/MAIN CONTAINER=== -->
     <div class=" flex container mx-40 ">
         <!-- FIRST CONTAINER=== -->
-        <div class="first w-[40vw] mr-[-35px] ml-[-10px]">
-            <div class="logo mt-3 mb-4 w-fit invert ">
+        <div class="first w-[40vw] mr-[-35px] ml-[-10px] ">
+            <div class="logo mb-1 w-fit invert cursor-pointer hover:bg-[#e3e3e3] px-3 py-3 rounded-full -ml-3">
 
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -36,47 +36,52 @@
                 </svg>
             </div>
             <!-- SIDEBAR OF THE D=FIRST CONTAINER==== -->
-            <div class="sidebar flex  ">
+            <div class="sidebar flex  -ml-3">
 
-                <ul class="flex flex-col text-xl space-y-2 font-medium ">
+                <ul class="flex flex-col gap-0.5 text-xl  font-medium ">
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5 pl-3 pr-7 w-fit py-1 ">
                         <span class="text-3xl material-symbols-outlined ">
                             home
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Home
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
-                        <span class="text-3xl material-symbols-outlined">
-                            search
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit  py-2 pl-3 pr-7">
+                        <span class="inline-block cursor-default ">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" class="w-6 h-6 fill-current text-[#E7E9EA]">
+                                <g>
+                                    <path
+                                        d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z" />
+                                </g>
+                            </svg>
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Explore
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             notifications
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Notifications
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="material-symbols-outlined">
                             mail
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Messages
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span>
                             <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
                                 class="w-7 h-7 fill-current">
@@ -87,39 +92,39 @@
                                 </g>
                             </svg>
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Grok
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             bookmark
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Bookmarks
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="material-symbols-outlined">
                             work
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Jobs
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             group
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Communities
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1 invert">
+                        class="text-[#E7E9EA] hover:bg-[#e3e3e3] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7 invert">
                         <svg viewBox="0 0 24 24" aria-hidden="true"
                             class="w-7 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                             <g>
@@ -128,34 +133,34 @@
                                 </path>
                             </g>
                         </svg>
-                        <span class="invert">
+                        <span class="invert hidden md:block">
                             Premium
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             flash_on
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Verified Orgs
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             person
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             Profile
                         </span>
                     </li>
                     <li
-                        class="text-[#E7E9EA] hover:bg-gray-900 hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-1">
+                        class="text-[#E7E9EA] hover:bg-[#1e1d1d] hover:cursor-pointer hover:rounded-full flex justify-start items-center gap-5  w-fit py-2 pl-3 pr-7">
                         <span class="text-3xl material-symbols-outlined">
                             pending
                         </span>
-                        <span>
+                        <span class="hidden md:block">
                             More
                         </span>
                     </li>
@@ -164,8 +169,8 @@
             <!-- POST BUTTON=== -->
             <div class="button w-full text-center my-3">
                 <button
-                    class="hidden md:block bg-[#eff3f4] ml-[-10px] px-24 text-[18px] rounded-full py-3 text-black font-[620]">Post</button>
-                <button class="md:hidden bg-[#eff3f4]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-black">
+                    class="hidden md:block bg-[#EFF3F4] ml-[-10px] px-24 text-[18px] rounded-full py-3 text-black font-[620]">Post</button>
+                <button class="md:hidden bg-[#EFF3F4]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-black">
                     <span class="material-symbols-outlined">
                         edit
                     </span>
@@ -173,13 +178,14 @@
             </div>
 
             <!-- USER PROFILE==== -->
-            <div class="user flex gap-3 items-center mt-14">
+            <div
+                class="user flex gap-3 items-center mt-10 cursor-pointer hover:bg-[#1e1d1d] hover:rounded-full py-2 px-2 mr-12 -ml-3">
                 <div class="img">
                     <img class="h-[40px] w-[40px] rounded-full"
                         src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg" alt="">
                 </div>
                 <div class="flex flex-col">
-                    <span class="font-semibold">Sumit</span>
+                    <span class="font-bold">Sumit</span>
                     <span class="text-[#71767B] mt-[-1px] ">@wtxsumit</span>
                 </div>
                 <span class="material-symbols-outlined ml-14 text-[#cbcccc] text-xl">
@@ -190,19 +196,21 @@
         </div>
 
         <!-- SECOND CONTAINER=== -->
-        <div class="second  w-full border-[1px] border-x-gray-700 border-y-black">
+        <div class="second  w-full border-[1px] border-x-[#45484a] border-y-black">
             <!-- TOP========= -->
-            <div class="top flex p-3 relative">
+            <div class="top flex relative bg-transparent ">
 
-                <div class="absolute w-[43px] h-1 bg-blue-500 rounded-full bottom-0 left-[21%] z-10">
+                <div class="absolute w-[57px] h-1 bg-blue-500 rounded-full bottom-0 left-[21%] z-10">
                     <!-- Blue Bar -->
                 </div>
 
-                <div class="left w-1/2 flex justify-center font-bold text-lg">
+                <div
+                    class="left p-3 w-1/2 flex justify-center font-semibold text-[16px] cursor-pointer hover:bg-[#242323] transition-all duration-300">
                     For you
                 </div>
 
-                <div class="right w-1/2 flex justify-center font-bold text-lg">
+                <div
+                    class="right p-3 w-1/2 flex justify-center text-[#b1b4b6] text-[15px] font-medium cursor-pointer hover:bg-[#242323] transition-all duration-300">
                     Following
                 </div>
                 <!-- <div class="settings">
@@ -210,14 +218,14 @@
                 </div> -->
             </div>
 
-            <div class="w-full h-[1px] bg-gray-700">
+            <div class="w-full h-[1px] bg-[#45484a]">
                 <!-- SEPARATE LINE====== -->
             </div>
 
             <!-- WHAT IS HAPPENING?=== -->
             <div class="whatisHappening? flex gap-3">
-                <div class="img mt-5 ml-5 cursor-pointer">
-                    <img class="h-[44px] rounded-full"
+                <div class="img mt-5 ml-5 cursor-pointer ">
+                    <img class="h-[44px] rounded-full "
                         src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg"
                         alt="User_Image">
                 </div>
@@ -225,10 +233,11 @@
                     <input class="w-full bg-black text-white text-xl  outline-none" type="search"
                         placeholder="What's happening?">
 
-                    <!-- GLOBE ASIA + EVERYONE CAN REPLY -->
-                    <div class="text-blue-400 font-bold text-sm flex items-center gap-1 mt-4">
+                    <!-- GLOBE + EVERYONE CAN REPLY -->
+                    <div
+                        class="text-[#1D9BF0] font-bold text-sm flex items-center gap-1 mt-4 hover:bg-[#05131c] rounded-full h-6 w-fit px-3 -ml-2.5">
                         <span class="material-symbols-outlined text-lg cursor-pointer">
-                            globe_asia
+                            globe
                         </span>
                         <span class="cursor-pointer">
                             Everyone can reply
@@ -237,21 +246,23 @@
                 </div>
             </div>
             <!-- hr TAG===== -->
-            <hr class="ml-[59px] mr-[20px] mt-7 border-t border-gray-700">
+            <hr class="ml-[59px] mr-[20px] mt-7 border-t border-[#393b3d]">
 
             <!--  BLUE MEDIA ICONS + POST===== -->
-            <div class="blueIcons mt-2 ml-[73px] flex justify-between text-blue-400 items-center">
-                <div class="left flex gap-4">
+            <div class="blueIcons mt-2 ml-[73px] flex justify-between text-[#1D9BF0] items-center ">
+                <div class="left flex gap-2 ">
 
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         imagesmode
                     </span>
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         gif_box
                     </span>
-                    <span>
+                    <span class="w-7 h-7 px-1 py-0.5 hover:bg-[#05131c] rounded-full">
                         <svg xlmns="cursor-pointer text-lg text-blue-400" viewBox="0 0 33 32" aria-hidden="true"
-                            class="w-6 h-6 fill-current">
+                            class=" mt-1 fill-current  ">
                             <g>
                                 <path
                                     d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
@@ -259,16 +270,20 @@
                             </g>
                         </svg>
                     </span>
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         checklist
                     </span>
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         sentiment_satisfied
                     </span>
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         calendar_clock
                     </span>
-                    <span class="material-symbols-outlined cursor-pointer text-xl">
+                    <span
+                        class="material-symbols-outlined cursor-pointer text-xl hover:bg-[#05131c] rounded-full px-1 py-0.5">
                         location_on
                     </span>
                 </div>
@@ -282,7 +297,7 @@
 
             </div>
 
-            <hr class="mt-3 border-t border-gray-700">
+            <hr class="mt-3 border-t border-[#393b3d]">
 
             <!-- CONTAINER POST -->
             <!-- <div class="containerPost">
@@ -320,208 +335,456 @@
 
             <div class="containerPost">
                 <div class="post">
-                    <div class="heading flex ">
+                    <div class="heading flex justify-between ">
+                        <!-- left -->
+                        <div class="left flex ">
 
-                        <div class="image flex m-4">
-                            <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
-                                src="https://pbs.twimg.com/profile_images/1692714454172246016/3l_fS4n2_bigger.jpg"
-                                alt="">
-                        </div>
-                        <div class="content my-3 ">
-                            <span class="font-bold hover:underline text-white cursor-pointer">Raghu</span>
-                            <span class="text-[#71767B] cursor-pointer">@IndiaTales7</span>
-                            <span class="text-[#71767B] cursor-pointer hover:underline text-sm  ">
-                                · July 27
-                            </span>
-                            <!-- <div class="right text- flex gap-1 items-center ">
-                                <span class="flex">
-                                    <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
-                                        class="w-4 h-4 fill-current">
-                                        <g>
-                                            <path
-                                                d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
-                                            </path>
-                                        </g>
+                            <div class="image mx-3.5 my-3">
+                                <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
+                                    src="https://pbs.twimg.com/profile_images/1692714454172246016/3l_fS4n2_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3 ">
+
+                                <span class="font-bold hover:underline text-[#E7E9EA] cursor-pointer">
+                                    Raghu
+                                </span>
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
                                     </svg>
                                 </span>
-                                <span class="material-symbols-outlined text-[#cbcccc] text-lg flex">
-                                    more_horiz
+
+                                <span class="text-[#71767B] cursor-pointer">@IndiaTales7</span>
+                                <span class="text-[#71767B] cursor-pointer hover:underline text-sm  ">
+                                    · July 27
+                                </span>
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="right flex items-center gap-0.5 h-10 mr-5  text-[#71767B]">
+                            <span class="hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
+                                    class="w-5 h-5 fill-current">
+                                    <g>
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span
+                                class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                more_horiz
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="flex flex-col ml-[73px] -mt-7 mb-3 cursor-pointer">
+                        <span>Some of the Most Interesting Moments from the Past.🧵</span>
+                        <br>
+                        <span> 1. Five-Times World Chess Champion Magnus Carlsen slams table after losing to 19
+                            years old grandmaster Gukesh Dommaraju.</span>
+                    </div>
+                    <!-- MEDIA ======= -->
+                    <div class="posting ml-[72px] mr-3 rounded-2xl    border border-[#45484a] cursor-pointer ">
+
+                        <video class="px-0.5 rounded-2xl" src="assets/magnus.mp4" autoplay controls muted loop></video>
+                    </div>
+                    <!-- ICONS FOR REACTION====== -->
+                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-between ml-[75px] mr-3 cursor-pointer">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0] ">
+                            <span class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-1">
+                                mode_comment
+                            </span>
+                            <span>10.1K</span>
+                        </div>
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#3fc97d]">
+
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#072113] rounded-full px-1.5 py-0.5">
+                                repeat
+                            </span>
+                            <span> 503 </span>
+                        </div>
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#a13671]">
+
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#1f0714] rounded-full px-1.5 py-0.5">
+                                favorite
+                            </span>
+                            <span> 5.56K</span>
+                        </div>
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0]">
+
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
+                                bar_chart
+                            </span>
+                            <span>55.5K</span>
+                        </div>
+                        <div class="icon flex items-center justify-center  rounded-full cursor-pointer ">
+
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
+                                bookmark
+                            </span>
+
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
+                                upload
+                            </span>
+                        </div>
+                    </div>
+                    <hr class="mt-3 border-t border-[#393b3d]">
+
+                </div>
+                <div class="post">
+                    <div class="heading flex justify-between ">
+                        <!-- left -->
+                        <div class="left flex ">
+
+                            <div class="image mx-3.5 my-3">
+                                <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
+                                    src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3 ">
+
+                                <span class="font-bold hover:underline text-[#E7E9EA] cursor-pointer">
+                                    Elon Musk
+                                </span>
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
                                 </span>
 
-                            </div> -->
-
+                                <span class="text-[#71767B] cursor-pointer">@elonmusk</span>
+                                <span class="text-[#71767B] cursor-pointer hover:underline text-sm  ">
+                                    · July 29
+                                </span>
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="right flex items-center gap-0.5 h-10 mr-5  text-[#71767B]">
+                            <span class="hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
+                                    class="w-5 h-5 fill-current">
+                                    <g>
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span
+                                class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                more_horiz
+                            </span>
                         </div>
 
                     </div>
-
-                    <div class="posting ml-[72px] mr-3 rounded-2xl    border-[0.5px] border-[#71767B] ">
-
-                        <video class="px-0.5 w-fit rounded-2xl" src="assets/magnus.mp4" autoplay controls muted></video>
+                    <div class="flex flex-col ml-[73px] -mt-7 mb-3 cursor-pointer">
+                        <span>Working out the bugs on
+                            @Grok video</span>
                     </div>
-                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-around ml-[69px] mr-3 ">
-                        <div class="icon flex gap-1.5 items-center justify-center">
-                            <span class="material-symbols-outlined text-lg">
+                    <!-- MEDIA ======= -->
+                    <div
+                        class="posting flex justify-center ml-[72px] mr-3 rounded-2xl  border border-[#45484a] cursor-pointer  h-[520px]">
+
+                        <video class="px-0.5 rounded-2xl h-full object-cover " src="assets/birdRepair.mp4" autoplay
+                            controls muted loop></video>
+                    </div>
+                    <!-- ICONS FOR REACTION====== -->
+                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-between ml-[75px] mr-3 cursor-pointer">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0] ">
+                            <span class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-1">
                                 mode_comment
                             </span>
-                            10.1K
+                            <span>10K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#3fc97d]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#072113] rounded-full px-1.5 py-0.5">
                                 repeat
                             </span>
-                            503
+                            <span> 19K </span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#a13671]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#1f0714] rounded-full px-1.5 py-0.5">
                                 favorite
                             </span>
-                            5.56K
+                            <span>131K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bar_chart
                             </span>
-                            55.5K
+                            <span>19M</span>
                         </div>
-                        <div class="icon flex gap-1.5 items-center justify-center">
+                        <div class="icon flex items-center justify-center  rounded-full cursor-pointer ">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bookmark
                             </span>
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 upload
                             </span>
                         </div>
                     </div>
-                    <hr class="mt-3 border-t border-gray-700">
+                    <hr class="mt-3 border-t border-[#393b3d]">
 
                 </div>
+
                 <div class="post">
-                    <div class="heading flex">
-                        <div class="image m-4">
-                            <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
-                                src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg"
-                                alt="">
+                    <div class="heading flex justify-between ">
+                        <!-- left -->
+                        <div class="left flex ">
+
+                            <div class="image mx-3.5 my-3">
+                                <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
+                                    src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3 ">
+
+                                <span class="font-bold hover:underline text-[#E7E9EA] cursor-pointer">
+                                    Sumit
+                                </span>
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
+                                </span>
+
+                                <span class="text-[#71767B] cursor-pointer">@wtxsumit</span>
+                                <span class="text-[#71767B] cursor-pointer hover:underline text-sm  ">
+                                    · 18 May
+                                </span>
+                            </div>
                         </div>
-                        <div class="content my-3">
-                            <span class="font-bold hover:underline cursorpointer text-white cursor-pointer">Sumit
-                                Sharma</span>
-                            <span class="text-[#71767B] cursor-pointer">@wtxsumit</span>
-                            <span class="text-[#71767B] cursor-pointer hover:underline text-sm">· 3h</span>
-                            <div>Sir Jadeja</div>
+                        <!-- right -->
+                        <div class="right flex items-center gap-0.5 h-10 mr-5  text-[#71767B]">
+                            <span class="hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
+                                    class="w-5 h-5 fill-current">
+                                    <g>
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span
+                                class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                more_horiz
+                            </span>
                         </div>
+
                     </div>
-                    <div class="posting ml-[72px] mr-3">
+                    <div class="flex flex-col ml-[73px] -mt-7 mb-3 cursor-pointer">
+                        <span>Sir Jadeja</span>
+                    </div>
+                    <!-- MEDIA ======= -->
+                    <div class="posting  ml-[72px] mr-3  cursor-pointer ">
+
                         <img class="rounded-2xl" src="https://pbs.twimg.com/media/Gw4X_aRbIAAw4na?format=jpg&name=small"
                             alt="">
                     </div>
-                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-around ml-[69px] mr-3 ">
-                        <div class="icon flex gap-1.5 items-center justify-center">
-                            <span class="material-symbols-outlined text-lg">
+                    <!-- ICONS FOR REACTION====== -->
+                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-between ml-[75px] mr-3 cursor-pointer">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0] ">
+                            <span class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-1">
                                 mode_comment
                             </span>
-                            10.1K
+                            <span>10K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#3fc97d]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#072113] rounded-full px-1.5 py-0.5">
                                 repeat
                             </span>
-                            503
+                            <span> 19K </span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#a13671]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#1f0714] rounded-full px-1.5 py-0.5">
                                 favorite
                             </span>
-                            5.56K
+                            <span>131K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bar_chart
                             </span>
-                            55.5K
+                            <span>19M</span>
                         </div>
-                        <div class="icon flex gap-1.5 items-center justify-center">
+                        <div class="icon flex items-center justify-center  rounded-full cursor-pointer ">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bookmark
                             </span>
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 upload
                             </span>
                         </div>
                     </div>
-                    <hr class="mt-3 border-t border-gray-700">
+                    <hr class="mt-3 border-t border-[#393b3d]">
 
                 </div>
+
+
                 <div class="post">
-                    <div class="heading flex">
-                        <div class="image m-4">
-                            <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
-                                src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg"
-                                alt="">
+                    <div class="heading flex justify-between ">
+                        <!-- left -->
+                        <div class="left flex ">
+
+                            <div class="image mx-3.5 my-3">
+                                <img class="cursor-pointer rounded-full h-[44px] w-[44px]"
+                                    src="https://pbs.twimg.com/profile_images/1838668500589477888/SWoobKw-_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3 ">
+
+                                <span class="font-bold hover:underline text-[#E7E9EA] cursor-pointer">
+                                    Sumit
+                                </span>
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
+                                </span>
+
+                                <span class="text-[#71767B] cursor-pointer">@wtxsumit</span>
+                                <span class="text-[#71767B] cursor-pointer hover:underline text-sm  ">
+                                    · 18 May
+                                </span>
+                            </div>
                         </div>
-                        <div class="content my-3">
-                            <span class="font-bold hover:underline cursorpointer text-white cursor-pointer">Sumit
-                                Sharma</span>
-                            <span class="text-[#71767B] cursor-pointer">@wtxsumit</span>
-                            <span class="text-[#71767B] cursor-pointer hover:underline text-sm">· 3h</span>
-                            <div>Sir Jadeja</div>
+                        <!-- right -->
+                        <div class="right flex items-center gap-0.5 h-10 mr-5  text-[#71767B]">
+                            <span class="hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                <svg xlmns="cursor-pointer" viewBox="0 0 33 32" aria-hidden="true"
+                                    class="w-5 h-5 fill-current">
+                                    <g>
+                                        <path
+                                            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span
+                                class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer px-1 py-1 hover:text-[#1D9BF0]">
+                                more_horiz
+                            </span>
                         </div>
+
                     </div>
-                    <div class="posting ml-[72px] mr-3">
+                    <div class="flex flex-col ml-[73px] -mt-7 mb-3 cursor-pointer">
+                        <span>Hiring Freshers</span>
+                        <span> Package: 9–10 LPA</span>
+                        <br>
+                        <span> Join mthree as a Graduate Engineer Trainee! Work on global systems including trading
+                            engines
+                            & regulatory tools. Strong programming (Java/Python/C++) & CS fundamentals (OOPs, DS, SDLC)
+                            required. Competitive coding is a plus!</span>
+                    </div>
+                    <!-- MEDIA ======= -->
+                    <!-- <div class="posting  ml-[72px] mr-3  cursor-pointer ">
+
                         <img class="rounded-2xl" src="https://pbs.twimg.com/media/Gw4X_aRbIAAw4na?format=jpg&name=small"
                             alt="">
-                    </div>
-                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-around ml-[69px] mr-3 ">
-                        <div class="icon flex gap-1.5 items-center justify-center">
-                            <span class="material-symbols-outlined text-lg">
+                    </div> -->
+                    <!-- ICONS FOR REACTION====== -->
+                    <div class="icons text-[#71767B] text-sm  mt-3 flex justify-between ml-[75px] mr-3 cursor-pointer">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0] ">
+                            <span class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-1">
                                 mode_comment
                             </span>
-                            10.1K
+                            <span>10K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#3fc97d]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#072113] rounded-full px-1.5 py-0.5">
                                 repeat
                             </span>
-                            503
+                            <span> 19K </span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#a13671]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#1f0714] rounded-full px-1.5 py-0.5">
                                 favorite
                             </span>
-                            5.56K
+                            <span>131K</span>
                         </div>
-                        <div class="icon flex items-center justify-center">
+                        <div
+                            class="icon flex items-center justify-center  rounded-full cursor-pointer hover:text-[#1D9BF0]">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-lg hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bar_chart
                             </span>
-                            55.5K
+                            <span>19M</span>
                         </div>
-                        <div class="icon flex gap-1.5 items-center justify-center">
+                        <div class="icon flex items-center justify-center  rounded-full cursor-pointer ">
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 bookmark
                             </span>
 
-                            <span class="material-symbols-outlined text-lg">
+                            <span
+                                class="material-symbols-outlined text-xl hover:text-[#1D9BF0] hover:bg-[#07151f] rounded-full px-1.5 py-0.5">
                                 upload
                             </span>
                         </div>
                     </div>
-                    <hr class="mt-3 border-t border-gray-700">
+                    <hr class="mt-3 border-t border-[#393b3d]">
 
                 </div>
+
+
             </div>
 
             <!-- THROUGH API========= -->
@@ -534,8 +797,8 @@
         <!-- THIRD CONTAINER=== -->
         <div class="third w-[60vw] ml-4">
             <!-- SEARCH BAR=== -->
-            <div
-                class="search mx-4 my-1 border-0.5px border border-[#71767B] rounded-full px-4 py-2.5 flex items-center w-3/4 gap-1">
+            <div id="searchDiv"
+                class="search mx-4 my-1 border-[1px]  border-[#393b3d] rounded-full px-4 py-2.5 flex items-center w-3/4 gap-1 ">
                 <!-- <span class="material-symbols-outlined text-sm">
                     search
                 </span> -->
@@ -552,114 +815,168 @@
 
             </div>
 
+
             <!-- SUBSCRIBE TO PREMIUM -->
             <div
-                class="subscribe mx-4 my-5 bg-transparent border border-0.5px border-[#71767B] w-80 py-3 rounded-xl space-y-3 ">
-                <h1 class="text-xl px-5 font-bold cursor-default">Subscribe to Premium</h1>
-                <div class="item px-5 hover:bg-[#2a2e34] cursor-pointer">
+                class="subscribe mx-4 my-4 bg-transparent border border-0.5px border-[#393b3d] w-80 py-3 rounded-xl space-y-3 ">
+                <h1 class="text-xl px-5 font-bold">Subscribe to Premium</h1>
+                <div class="item px-5">
                     <div class="font-thin">Subscribe to unlock new features and if eligible, receive a share of revenue.
                     </div>
                 </div>
                 <div class="subsBtn">
-                    <button class="bg-[#1D98F0] mx-5 px-4 py-1.5 font-semibold rounded-full ">
-                        Subscribe
-                    </button>
+                    <a href="https://x.com/i/premium_sign_up">
+                        <button class="bg-[#1D98F0] mx-5 px-4 py-1.5 font-semibold rounded-full hover:bg-[#2584c8] ">
+                            Subscribe
+                        </button>
+                    </a>
                 </div>
             </div>
 
             <!-- WHAT'S HAPPENING=== -->
-            <div class="whats mx-4 bg-transparent border border-0.5px border-[#71767B] w-3/4 py-3 rounded-xl space-y-4">
+            <div class="whats mx-4 bg-transparent border border-0.5px border-[#393b3d] w-3/4 py-3 rounded-xl">
                 <!--h1 HEADING -->
-                <h1 class="text-xl px-5 font-bold cursor-default">What's happening</h1>
+                <h1 class="text-xl px-5 font-bold mb-0.5">What's happening</h1>
                 <!-- ITEMS========= -->
-                <div class="item px-5 hover:bg-[#2a2e34] cursor-pointer">
-                    <div class="font-normal text-[14px] text-[#767373]">Trending in India</div>
-                    <div class="font-bold text-sm">#viratkohli</div>
-                    <div class=" text-[13px] text-[#767373]">43.7M posts</div>
-                </div>
-
-                <div class="item px-5 hover:bg-[#2a2e34] cursor-pointer">
-                    <div class="font-normal text-[13px] text-[#767373]">Planet Voice</div>
-                    <div class="font-bold text-sm">#ॐनमःशिवाय
+                <div class="item flex justify-between px-5 cursor-pointer hover:bg-[#101010b1] py-2.5">
+                    <div class="left">
+                        <div class="font-normal text-[14px] text-[#71767B]">Trending in India</div>
+                        <div class="font-bold text-sm">#viratkohli</div>
+                        <div class=" text-[13px] text-[#71767B]">43.7M posts</div>
                     </div>
-                    <div class=" text-[13px] text-[#767373]">10.3M posts</div>
+                    <span
+                        class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer h-8 pt-1 pb-8 px-2 hover:text-[#1D9BF0]">
+                        more_horiz
+                    </span>
                 </div>
 
-                <div class="item px-5 hover:bg-[#2a2e34] cursor-pointer">
-                    <div class="font-normal text-[14px] text-[#767373]">Entertainment Buzz</div>
-                    <div class="font-bold text-sm">#Oggy❤️Olly</div>
-                    <div class=" text-[13px] text-[#767373]">41.3K posts</div>
+                <div class="item flex justify-between px-5 cursor-pointer hover:bg-[#101010b1] py-2.5">
+                    <div class="left">
+                        <div class="font-normal text-[13px] text-[#71767B]">Planet Voice</div>
+                        <div class="font-bold text-sm">#ॐनमःशिवाय
+                        </div>
+                        <div class=" text-[13px] text-[#71767B]">10.3M posts</div>
+                    </div>
+                    <span
+                        class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer h-8 pt-1 pb-8 px-2 hover:text-[#1D9BF0]">
+                        more_horiz
+                    </span>
                 </div>
 
-                <div class="item px-5 hover:bg-[#2a2e34] cursor-pointer">
-                    <div class="font-normal text-[13px] text-[#767373]">Business & finance</div>
-                    <div class="font-bold text-sm">#AsianPaints</div>
-                    <div class=" text-[13px] text-[#767373]">4034 posts</div>
+                <div class="item flex justify-between px-5 cursor-pointer hover:bg-[#101010b1] py-2.5">
+                    <div class="left">
+                        <div class="font-normal text-[14px] text-[#71767B]">Entertainment Buzz</div>
+                        <div class="font-bold text-sm">#Oggy❤️Olly</div>
+                        <div class=" text-[13px] text-[#71767B]">41.3K posts</div>
+                    </div>
+                    <span
+                        class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer h-8 pt-1 pb-8 px-2 hover:text-[#1D9BF0]">
+                        more_horiz
+                    </span>
                 </div>
 
-                <div class="text-blue-400 mx-4 text-[15px] cursor-pointer">Show more</div>
+                <div class="item flex justify-between px-5 cursor-pointer hover:bg-[#101010b1] py-2.5">
+                    <div class="left">
+                        <div class="font-normal text-[13px] text-[#71767B]">Business & finance</div>
+                        <div class="font-bold text-sm">#AsianPaints</div>
+                        <div class=" text-[13px] text-[#71767B]">4034 posts</div>
+                    </div>
+                    <span
+                        class="material-symbols-outlined text-[#71767B] text-xl hover:bg-[#05131c] rounded-full cursor-pointer h-8 pt-1 pb-8 px-2 hover:text-[#1D9BF0]">
+                        more_horiz
+                    </span>
+                </div>
+
+                <div class="text-blue-400 px-4 text-[15px] cursor-pointer hover:bg-[#101010b1] py-2.5 -mb-1.5">Show more
+                </div>
 
             </div>
 
 
             <!-- WHO TO FOLLOW======== -->
-            <div
-                class="who mx-4 my-4 bg-transparent border border-0.5px border-[#71767B] w-3/4 py-3 rounded-xl space-y-4">
+            <div class="who mx-4 my-4 bg-transparent border border-0.5px border-[#393b3d] w-3/4 py-3 rounded-xl">
                 <!--h1 HEADING -->
-                <h1 class="text-xl px-3 font-bold cursor-default">Who to follow</h1>
+                <h1 class="text-xl px-3 font-bold mb-2 ">Who to follow</h1>
 
                 <!-- OGGY===== -->
-                <div class="user flex gap-3 mx-4 justify-between items-center">
+                <div class="user flex gap-3 py-2 px-4 justify-between items-center cursor-pointer hover:bg-[#101010b1]">
                     <div class="left flex">
                         <div class="img flex">
                             <img class="h-[40px] w-[40px]  rounded-full" src="assets/oggy.jpg" alt="">
                         </div>
                         <div class="flex flex-col px-3">
-                            <span class="font-semibold">Oggy</span>
+                            <span class="font-semibold hover:underline ">Oggy
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
+                                </span>
+
+                            </span>
                             <span class="text-[#71767B] mt-[-1px] ">@oggy</span>
                         </div>
                     </div>
                     <div class="right flex">
 
-                        <button class="  text-black rounded-full bg-white font-semibold text-[15px]
+                        <button class="  text-black rounded-full bg-[#EFF3F4] font-semibold text-[15px]
                         px-3 py-1">
                             Follow
                         </button>
                     </div>
                 </div>
                 <!-- PIKACHU===== -->
-                <div class="user flex gap-3 mx-4 justify-between items-center">
+                <div class="user flex gap-3 py-2 px-4 justify-between items-center cursor-pointer hover:bg-[#101010b1]">
                     <div class="left flex">
                         <div class="img flex">
                             <img class="h-[40px] w-[40px] object-cover   rounded-full" src="assets/pikachu.jpg" alt="">
                         </div>
                         <div class="flex flex-col px-3">
-                            <span class="font-semibold">Pikachu</span>
+                            <span class="font-semibold hover:underline ">Pikachu
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
+                                </span>
+
+                            </span>
                             <span class="text-[#71767B] mt-[-1px] ">@pikachu</span>
                         </div>
                     </div>
                     <div class="right flex">
 
-                        <button class="  text-black rounded-full bg-white font-semibold text-[15px]
+                        <button class="  text-black rounded-full bg-[#EFF3F4] font-semibold text-[15px]
                         px-3 py-1">
                             Follow
                         </button>
                     </div>
                 </div>
                 <!-- MOTU PATLU ===== -->
-                <div class="user flex gap-3 mx-4 justify-between items-center">
+                <div class="user flex gap-3 py-2 px-4 justify-between items-center cursor-pointer hover:bg-[#101010b1]">
                     <div class="left flex">
                         <div class="img flex">
                             <img class="h-[40px] w-[40px] object-cover  rounded-full" src="assets/motuPatlu.jpg" alt="">
                         </div>
                         <div class="flex flex-col px-3">
-                            <span class="font-semibold">Motu Patlu</span>
+                            <span class="font-semibold hover:underline ">Motu Patlu
+                                <span class="inline-block align-middle -ml-0.5">
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-4 h-4 fill-[#1d9bf0]">
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z" />
+                                    </svg>
+                                </span>
+
+                            </span>
                             <span class="text-[#71767B] mt-[-1px] ">@motupatlu</span>
                         </div>
                     </div>
                     <div class="right flex">
 
-                        <button class="  text-black rounded-full bg-white font-semibold text-[15px]
+                        <button class="  text-black rounded-full bg-[#EFF3F4] font-semibold text-[15px]
                         px-3 py-1">
                             Follow
                         </button>
@@ -673,7 +990,7 @@
 
                 </div> -->
 
-                <div class="text-blue-400 m-3 cursor-pointer">Show more</div>
+                <div class="text-blue-400 p-3 cursor-pointer hover:bg-[#101010b1] py-2.5 -mb-1.5">Show more</div>
 
 
             </div>
